@@ -5,7 +5,8 @@
     <title>Sepia – Sclérose en plaques informatiquement assistée</title>
     <link rel="stylesheet" href="tacit.min.css">
     <style>
-      a[lang*="en"] { font-style: italic; }
+      a[href$=".pdf"]:after { content: " (PDF)"; }
+      a:lang(en), a:lang(la) { font-style: italic; }
       header > h1:first-of-type { font-variant: small-caps; }
       header *, footer * { text-align: center; }
       #timeline dl dt { font-weight: bold; }
@@ -23,7 +24,12 @@
       <section>
         <h1>Concept</h1>
         <p>Utiliser le jeu vidéo de rôle pour améliorer le bien-être des patients [atteints de sclérose en plaques] et éviter l’isolement, détecter et surveiller certains symptômes – le tout sans que cela soit intrusif. L’application serait capable d’envoyer des messages aux proches ou médecins suivant les points obtenus.</p>
+
+        <h1>Spécifications</h1>
+        <p>Le <a href="https://www.sharelatex.com/github/repos/SepiaMS/Sepia/builds/latest/output.pdf">cahier des charges</a> est en cours d’écriture.</p>
       </section>
+
+      <hr>
 
       <section id="timeline">
         <h1>Avancement</h1>
